@@ -10,3 +10,7 @@ button {
 body {
     font-family: fantasy;
 }
+a {
+    font-size: 20px;
+    font-family: serif;
+}
