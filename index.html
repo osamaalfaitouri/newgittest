@@ -10,6 +10,13 @@
 </head>
 <body>
     <a href="AboutUs.html" > About Us </a>
+
+    <button id="show">show</button>
+
+    <p id="show1"></p>
+
+  
+
     <h1>Git hub</h1>
     <p>thats it</p>
 
@@ -25,5 +32,13 @@
     <p>that's it</p>
     <p>add to feature branch & add another one</p>
     <span>Have you heard about <code>span</code> </span>
+
+    <script>
+        document.getElementById("show").addEventListener("click", displayDate);
+        
+        function displayDate() {
+          document.getElementById("show1").innerHTML = "Nizar";
+        }
+        </script>
 </body>
 </html>
